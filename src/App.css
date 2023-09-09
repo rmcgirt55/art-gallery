@@ -1,0 +1,41 @@
+.App {
+  font-family: Papyrus, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(12, 97, 26);
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.1em;
+  color: rgb(12, 97, 26);
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: rgb(12, 97, 26);
+  font-family: Papyrus, sans-serif;
+  color: white;
+  padding: 0em 1.1em;
+  margin: .2em;
+  border-radius: 1em;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(12, 97, 26);
+  transition: 0.3s ease-in-out;
+}
+
+img {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
