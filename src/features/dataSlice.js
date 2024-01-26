@@ -18,16 +18,16 @@ export const dataSlice = createSlice({
         inputId: (state, action) => {
             return { ...state, objectId: action.payload }
         },
-        incrementId: (state) => {
+        plusOne: (state) => {
             return { ...state, objectId: state.objectId + 1 }
         },
-        decrementId: (state) => {
+        minusOne: (state) => {
             return { ...state, objectId: state.objectId - 1 }
         }
     }
 })
 
-export const { setData, clearData, incrementId, decrementId, inputId } = dataSlice.actions
+export const { setData, clearData, plusOne, minusOne, inputId } = dataSlice.actions
 
 export const fetchData = () => {
     const fetchDataThunk = async (dispatch, getState) => {
